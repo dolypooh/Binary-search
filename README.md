@@ -1,4 +1,5 @@
-# Binary-search
+# Binary-search - [Leetcode](https://leetcode.com/problems/search-insert-position/description/)
+
 
 This is a situation where we are looking for the index of a target value in a sorted list. If until now we thought of going through and comparing element by element O(n), now we are thinking of a middle position, dividing the list in half O(log n), and checking which side of the list the target value is. Thus, the complexity is reduced by a factor of 2, since each time we give up half of the list.
 
